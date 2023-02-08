@@ -87,7 +87,12 @@ Bild av Tima Miroshnichenko: https://www.pexels.com/sv-se/foto/man-kvinna-hangma
 
 <a href="https://www.flaticon.com/free-icons/flower" title="flower icons">Flower icons created by Freepik - Flaticon</a>
 
+
+<a href="https://www.flaticon.com/free-icons/phone" title="phone icons">Phone icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/message" title="message icons">Message icons created by Freepik - Flaticon</a>
 color
 
 #b4bac0
 #6c757d 
+#f08080

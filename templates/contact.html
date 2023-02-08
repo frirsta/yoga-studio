@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/contact.css">
   <title>Mind & Body</title>
 </head>
 
@@ -42,77 +43,145 @@
       </nav>
     </nav>
   </header>
+  <div class="breadcumb-horizontal-line-container">
+    <div class="breadcrumb-horizontal-line"></div>
+  </div>
+  <section class="breadcrums-section">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item breadcrumb-list-item"><a href="../index.html">Home</a></li>
+        <li class="breadcrumb-item">About</li>
+      </ol>
+    </nav>
+  </section>
+  <section class="contact-container">
+    <div class="contact-button-container">
+      <h2>Contact Us</h2>
+      <p>If you have any questions do not hesitate to get in touch!</p>
+      <ul class="contact-button-list">
+        <li><a role="button" class="contact-button btn btn-outline-light" href="#"><img class="contact-logo"
+              src="../assets/images/contact_page/phone_16.png" alt="phone icon"> Call us</a></li>
+        <li><a role="button" class="contact-button btn btn-outline-light" href="#"><img class="contact-logo"
+              src="../assets/images/contact_page/mail_inbox_app_16.png" alt="mail inbox icon"> Email us</a></li>
+        <li><a role="button" class="contact-button btn btn-outline-light" href="#"><img class="contact-logo"
+              src="../assets/images/contact_page/messenger_16.png" alt="messenger icon"> Chat with us</a></li>
+      </ul>
+    </div>
+  </section>
+  <section class="contact-form-section contact-form">
+  
+    <div class="contact-form-container">
 
+      <form class="contact-form" action="#" method="get">
+        <div class="row">
+          <div class="col">
+            <label for="name-id" class="form-label">*Your full name</label>
+            <input type="text" class="form-control contact-form-input" id="name-id" placeholder="Jane Doe">
+          </div>
+          <div class="col">
+            <label for="email-id" class="form-label">*Your email</label>
+            <input type="email" class="form-control contact-form-input" id="email-id" placeholder="name@example.com">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <label for="tel-id" class="form-label">*Your phone number</label>
+            <input type="tel" class="form-control contact-form-input" id="tel-id" placeholder="0123456789">
+        </div>
+        
+        <div class="col">
+          <label for="select-id" class="form-label">*What class would you like to join?</label>
+        <select id="select-id" class="form-select contact-form-select" aria-label="Default select example">
+          <option selected>Select a class</option>
+          <option value="1">Beginner Yoga</option>
+          <option value="2">Advanced Yoga</option>
+          <option value="3">Group Yoga</option>
+        </select>
+      </div>
+    </div>
+
+        <div class="row">
+          <label for="textarea-id" class="form-label">Leave a message (optional)</label>
+          <textarea class="contact-textarea" id="textarea-id" rows="5"></textarea>
+        </div>
+        <button class="orange-button" type="submit">Submit</button>
+      </form>
+    </div>
+    
+    <div class="background-image"></div>
+  </section>
   <footer>
     <div class="footer-content">
       <div class="footer-content-logo">
-      <a class="logo" href="index.html">Mind & Body</a>
-      <span class="text-muted footer-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem numquam, id debitis vel accusantium et aliquid alias cumque dolor ab, dolorem impedit laboriosam.</span>
-    </div>
-    <div class="list-container">
-      <ul class="page-links">
-        <h5>Mind & Body</h5>
-        <li class="page-item">
-          <a class="page-link" href="index.html">Home</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="templates/about.html">About</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="templates/classes.html">Classes</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#trainer-section">Instructors</a>
-        </li>
-      </ul>
-      <ul class="page-links">
-        <h5>Support</h5>
-        <li class="page-item">
-          <a class="page-link" href="templates/contact.html">Contact</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">Privacy Policy</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">Terms of Use</a>
-        </li>
-      </ul>
-    </div>
+        <a class="logo" href="../index.html">Mind & Body</a>
+        <span class="text-muted footer-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem numquam, id
+          debitis vel accusantium et aliquid alias cumque dolor ab, dolorem impedit laboriosam.</span>
+      </div>
+      <div class="list-container">
+        <ul class="page-links">
+          <h5>Mind & Body</h5>
+          <li class="page-item">
+            <a class="page-link" href="../index.html">Home</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./about.html">About</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./classes.html">Classes</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#trainer-section">Instructors</a>
+          </li>
+        </ul>
+        <ul class="page-links">
+          <h5>Support</h5>
+          <li class="page-item">
+            <a class="page-link" href="./contact.html">Contact</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">Privacy Policy</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">Terms of Use</a>
+          </li>
+        </ul>
+      </div>
     </div>
     <div class="footer-bottom">
-    <div class="horizontal-line"></div>
-    <div class="footer-bottom-content">
-      <p class="copyright">&copy;Copyright 2022 Website created by Frirsta.</p>
-    <div id="social-media">
-      <ul class="social-media-container footer-links">
-        <li>
-          <a href="https://www.instagram.com/" rel="noopener" target="_blank"
-            aria-label="Visit our instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/" rel="noopener" target="_blank"
-            aria-label="Visit our facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-        </li>
-        <li>
-          <a href="https://www.twitter.com/" rel="noopener" target="_blank"
-            aria-label="Visit our twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/" rel="noopener" target="_blank"
-            aria-label="Visit our youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-        </li>
+      <div class="horizontal-line"></div>
+      <div class="footer-bottom-content">
+        <p class="copyright">&copy;Copyright 2022 Website created by Frirsta.</p>
+        <div id="social-media">
+          <ul class="social-media-container footer-links">
+            <li>
+              <a href="https://www.instagram.com/" rel="noopener" target="_blank"
+                aria-label="Visit our instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/" rel="noopener" target="_blank"
+                aria-label="Visit our facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com/" rel="noopener" target="_blank"
+                aria-label="Visit our twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/" rel="noopener" target="_blank"
+                aria-label="Visit our youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
 
-      </ul>
+          </ul>
+        </div>
+      </div>
     </div>
-  </div>
-  </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
-  </script>
+    </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
     integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
-  </script>
+    </script>
 
 </body>
 
