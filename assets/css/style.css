@@ -1,0 +1,1176 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+* {
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+    color: #464646;
+}
+
+p {
+    color: #6c757d;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+.btn-outline-light {
+    color: #464646;
+    border-color: #464646;
+    --bs-btn-hover-bg: #464646;
+    --bs-btn-active-bg: #464646;
+}
+
+.btn:hover {
+    border-color: #464646;
+}
+
+.navbar {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.navbar-brand {
+    color: #464646;
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 20px;
+}
+
+.nav-link {
+    color: #464646;
+    font-size: 20px;
+}
+
+.active {
+    text-decoration: underline;
+    color: #464646 !important;
+}
+
+.hero-section {
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-image {
+    background: url('../images/hero/hero.jpg') no-repeat center center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-text {
+    width: 80%;
+    color: #464646;
+}
+
+/* home classes */
+.home-title {
+    text-align: center;
+    position: relative;
+}
+
+.classes-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.home-classes-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+    width: 100%;
+    text-align: center;
+}
+
+.home-classes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    padding: 20px 0;
+}
+
+.classes-link {
+    text-decoration: none;
+    color: lightcoral;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.yoga-image {
+    height: 256px;
+    width: 256px;
+    margin: 40px;
+}
+
+.yoga-icon-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.yoga-image-one {
+    background: url('../images/classes_images/yoga_pose_1.png') no-repeat center center;
+}
+
+.yoga-image-two {
+    background: url('../images/classes_images/yoga_pose_2.png') no-repeat center center;
+}
+
+.yoga-image-three {
+    background: url('../images/classes_images/yoga_pose_3.png') no-repeat center center;
+}
+
+/* Yoga trainer sections */
+.trainer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #edf8ff;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.text-muted {
+    text-align: center;
+    font-size: 20px;
+}
+
+.trainer-title {
+    top: 0px;
+    padding-bottom: 15px;
+}
+
+.trainer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.trainer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+
+
+.trainer-contact {}
+
+.trainer-image-1 {
+    background: url('../images/trainer-images/susan_miranda_400.jpg') no-repeat center center;
+}
+
+.trainer-image-2 {
+    background: url('../images/trainer-images/jane_johnson_400.jpg') no-repeat center center;
+}
+
+.trainer-image-3 {
+    background: url('../images/trainer-images/anna_alfred_400.jpg') no-repeat center center;
+}
+
+.trainer-image-4 {
+    background: url('../images/trainer-images/maria_ericson_400.jpg') no-repeat center center;
+}
+
+.trainer-image {
+    border-radius: 4px;
+    height: 500px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+/* about section */
+.about-section {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.about-image {
+    background: url('../images/about/about.jpg') no-repeat center;
+    height: 499px;
+    width: 60%;
+
+}
+
+.about-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text-container {
+    width: 80%;
+}
+
+.company-name {}
+
+
+
+/* newsletter */
+.newsletter-section {
+    background-color: #edf8ff;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.background-image {
+    background: url('../images/newsletter/mandala.png') no-repeat center center;
+    animation-name: newsletter-image;
+    animation-duration: 2s;
+    height: 500px;
+    width: 500px;
+    transform: scale(1);
+    opacity: 0.3;
+    position: relative;
+    right: -35%;
+    z-index: 1;
+}
+
+@keyframes newsletter-image {
+    0% {
+        background: url('../images/newsletter/mandala.png') no-repeat;
+        right: -45%;
+        transform: scale(0.7);
+
+    }
+
+    100% {
+        background: url('../images/newsletter/mandala.png') no-repeat;
+        transform: scale(1);
+        right: -35%;
+
+    }
+}
+
+.newsletter-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+    height: 500px;
+
+}
+
+
+.newsletter-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-input {
+    height: 44px;
+    border: none;
+    padding: 10px;
+    width: 500px;
+    border-radius: 4px;
+}
+
+.orange-button {
+    padding: 10px 15px;
+    background-color: lightcoral;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* footer */
+.logo {
+    font-size: 30px;
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.footer-text {
+    text-align: left;
+    font-size: 14px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 95%;
+    margin-top: 5px;
+}
+
+.copyright {
+    color: #6c757d;
+    font-size: 20px;
+}
+
+.horizontal-line {
+    width: 95%;
+    background-color: #6c757d;
+    height: 0.08px;
+    margin: 0 auto;
+}
+
+.social-media {}
+
+.social-media-container {}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: end;
+
+    font-size: 40px;
+}
+
+.footer-links li a {
+    color: #6c757d;
+    margin: 0px 20px;
+}
+
+.fa-brand {}
+.list-container{
+    display: flex;
+    flex-direction: row;
+}
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 50px 100px;
+}
+
+.footer-content-logo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.page-links {
+    list-style: none;
+    color: #6c757d;
+}
+
+.logo,
+h5 {
+    color: #464646;
+    font-weight: 700;
+}
+
+.page-item {}
+
+.page-link {}
+
+@media screen and (max-width: 1600px) {
+    .hero-image {}
+}
+
+@media screen and (max-width: 1448px) {
+    .hero-image {}
+
+    .trainer-image-1 {
+        background: url('../images/trainer-images/susan_miranda_300.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-2 {
+        background: url('../images/trainer-images/jane_johnson_300.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-3 {
+        background: url('../images/trainer-images/anna_alfred_300.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-4 {
+        background: url('../images/trainer-images/maria_ericson_300.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image {
+        width: 300px;
+        height: 375px;
+    }
+
+    .trainer {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1448px) {
+    .trainer-image-1 {
+        background: url('../images/trainer-images/susan_miranda_250.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-2 {
+        background: url('../images/trainer-images/jane_johnson_250.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-3 {
+        background: url('../images/trainer-images/anna_alfred_250.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-4 {
+        background: url('../images/trainer-images/maria_ericson_250.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image {
+        width: 250px;
+        height: 313px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    h3 {
+        font-size: 20px;
+    }
+
+    .hero-image {
+        background: url('../images/hero/hero_1024.jpg') no-repeat center center;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        background-size: cover;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .home-title {
+        font-size: 30px;
+    }
+
+    /* classes */
+
+    .classes-section {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .home-classes-container {}
+
+    .home-classes {
+        height: 400px;
+        padding: unset;
+    }
+
+
+    .classes-link {
+        font-size: 17px;
+    }
+
+    .yoga-image {
+        height: 128px;
+        width: 128px;
+
+
+    }
+
+    .yoga-icon-title {}
+
+    .yoga-image-one {
+        background: url('../images/classes_images/yoga_pose_1_1024.png') no-repeat center center;
+    }
+
+    .yoga-image-two {
+        background: url('../images/classes_images/yoga_pose_2_1024.png') no-repeat center center;
+    }
+
+    .yoga-image-three {
+        background: url('../images/classes_images/yoga_pose_3_1024.png') no-repeat center center;
+    }
+
+
+    /* trainer */
+
+    .trainer-section {
+        justify-content: unset;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .trainer-image-1 {
+        background: url('../images/trainer-images/susan_miranda_200.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-2 {
+        background: url('../images/trainer-images/jane_johnson_200.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-3 {
+        background: url('../images/trainer-images/anna_alfred_200.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-4 {
+        background: url('../images/trainer-images/maria_ericson_200.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image {
+        width: 200px;
+        height: 250px;
+    }
+
+    .trainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 200px;
+    }
+
+    .trainer-name {
+        font-size: 18px;
+    }
+
+    /* about */
+
+
+    /* footer */
+
+    .copyright {
+        font-size: 15px;
+    }
+
+    .footer-links {
+        font-size: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 857px) {
+
+    .trainer-image-1 {
+        background: url('../images/trainer-images/susan_miranda_150.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-2 {
+        background: url('../images/trainer-images/jane_johnson_150.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-3 {
+        background: url('../images/trainer-images/anna_alfred_150.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-4 {
+        background: url('../images/trainer-images/maria_ericson_150.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image {
+        width: 150px;
+        height: 188px;
+    }
+
+    .trainer {
+        width: 150px;
+    }
+
+    .trainer-instructor {
+        font-size: 15px;
+    }
+
+    .footer-content {
+        padding: 25px 50px;
+    }
+
+    .footer-links {
+        font-size: 25px;
+    }
+
+    h5 {
+        color: #464646;
+        font-weight: 700;
+        font-size: 17px;
+    }
+    .logo{
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .text-muted {
+        font-size: 12px;
+    }
+
+    .hero-image {
+        background: url('../images/hero/hero_768.jpg') no-repeat center center;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        background-size: cover;
+    }
+
+    /* classes */
+
+    .classes-section {
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+    .home-title {
+        font-size: 20px;
+    }
+
+    .home-classes {}
+
+
+
+    .home-classes-container {}
+
+    .classes-link {
+        font-size: 15px;
+    }
+
+    /* trainer section */
+
+
+    .trainer-name {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    /* about */
+    .about-section {
+        height: unset;
+    }
+
+    .about-container {
+        flex-direction: column-reverse;
+    }
+
+    .about-image {
+
+        width: 95%;
+        border-radius: 8px;
+        margin-bottom: 50px;
+    }
+
+    .about-text {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    /* newsletter section */
+    .newsletter-text {}
+
+    .newsletter-input {
+        width: 400px;
+    }
+
+    /* footer */
+    .copyright {
+        font-size: 13px;
+    }
+
+
+    .footer-links li a {
+
+        margin: 0px 5px;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    .trainer-image-1 {
+        background: url('../images/trainer-images/susan_miranda_120.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-2 {
+        background: url('../images/trainer-images/jane_johnson_120.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-3 {
+        background: url('../images/trainer-images/anna_alfred_120.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-4 {
+        background: url('../images/trainer-images/maria_ericson_120.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image {
+        width: 120px;
+        height: 150px;
+    }
+
+    .trainer {
+        width: 120px;
+    }
+
+    /*about*/
+    .about-text {
+        padding-top: 30px;
+    }
+
+    .about-image {
+        margin-bottom: 30px;
+    }
+
+    /* newsletter */
+    .newsletter-input {
+        width: 350px;
+    }
+    /* footer */
+    .footer-content {
+        flex-direction: column;
+
+    }
+    .footer-content-logo {
+        width: 100%;
+        padding: 30px 0;
+    }
+    .page-item{
+        font-size: 12px;
+    }
+    .list-container {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 592px) {
+    .text-muted {
+        font-size: 10px;
+    }
+
+    .trainer-image-1 {
+        background: url('../images/trainer-images/susan_miranda_100.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-2 {
+        background: url('../images/trainer-images/jane_johnson_100.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-3 {
+        background: url('../images/trainer-images/anna_alfred_100.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-4 {
+        background: url('../images/trainer-images/maria_ericson_100.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image {
+        width: 100px;
+        height: 125px;
+    }
+
+    .trainer {
+        width: 100px;
+    }
+
+    .yoga-image {
+        margin: 20px;
+    }
+
+    .trainer-name {
+        font-size: 13px;
+    }
+
+    /* about */
+
+    .about-image {
+        background: url('../images/about/about_600.jpg') no-repeat center center;
+        height: 400px;
+    }
+
+    /* newsletter */
+    .newsletter-section {
+        height: 300px;
+    }
+
+    .newsletter-input {
+        width: 300px;
+    }
+
+    .newsletter-text {
+        height: 300px;
+    }
+
+    .background-image {
+        background: url('../images/newsletter/mandala_256.png') no-repeat center center;
+        animation-name: newsletter-image-256;
+        height: 256px;
+        width: 256px;
+        animation-duration: 2s;
+        transform: scale(1);
+        opacity: 0.3;
+        position: relative;
+        right: -35%;
+        z-index: 1;
+    }
+
+    @keyframes newsletter-image-256 {
+        0% {
+            background: url('../images/newsletter/mandala_256.png') no-repeat;
+            right: -45%;
+            transform: scale(0.7);
+
+        }
+
+        100% {
+            background: url('../images/newsletter/mandala_256.png') no-repeat;
+            transform: scale(1);
+            right: -35%;
+
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 479px) {
+    .text-muted {
+        font-size: 15px;
+    }
+
+    .home-classes-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-classes {
+        width: 70%;
+        height: unset;
+        margin: 10px;
+    }
+
+    .yoga-image {
+        margin: 10px;
+    }
+
+    .home-classes p {
+        margin-bottom: 0px;
+    }
+
+    /* trainers */
+    .trainer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trainer-image-1 {
+        background: url('../images/trainer-images/susan_miranda_300.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-2 {
+        background: url('../images/trainer-images/jane_johnson_300.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-3 {
+        background: url('../images/trainer-images/anna_alfred_300.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-4 {
+        background: url('../images/trainer-images/maria_ericson_300.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image {
+        width: 300px;
+        height: 375px;
+    }
+
+    .trainer {
+        width: 300px;
+        margin-bottom: 30px;
+    }
+
+    .trainer-name {
+        font-size: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 425px) {
+    .hero-image {}
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 3px;
+    }
+
+    p {
+
+        margin-bottom: 3px;
+    }
+
+
+    .cover-text {
+        width: 80vw;
+    }
+
+
+
+
+    /*  trainer section  */
+
+
+
+    /* about */
+    .about-section {}
+
+    .about-container {}
+
+
+
+    /* newsletter section */
+
+
+
+
+
+    .orange-button {
+        padding: 7px 10px;
+        font-size: 11px;
+    }
+
+    /* footer */
+    .copyright {
+        font-size: 10px;
+    }
+
+    .footer-links {
+        font-size: 15px;
+    }
+
+    /* newsletter */
+    .subscribe-button {
+        height: 35px;
+    }
+
+    .newsletter-input {
+        height: 35px;
+        width: 250px;
+        font-size: 15px;
+    }
+
+    .footer-content{
+        padding: 15px 25px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    h2 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 11px;
+    }
+
+    .trainer-image-1 {
+        background: url('../images/trainer-images/susan_miranda_250.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-2 {
+        background: url('../images/trainer-images/jane_johnson_250.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-3 {
+        background: url('../images/trainer-images/anna_alfred_250.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-4 {
+        background: url('../images/trainer-images/maria_ericson_250.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image {
+        width: 250px;
+        height: 313px;
+    }
+
+    .trainer {
+        width: 250px;
+    }
+
+    /* about */
+
+    .about-image {
+        background: url('../images/about/about_250.jpg') no-repeat center center;
+        height: 250px;
+    }
+
+    /* newsletter */
+
+    .newsletter-input {
+        height: 25px;
+        width: 200px;
+        font-size: 10px;
+    }
+
+    .subscribe-button {
+        height: 25px;
+        font-size: 10px;
+        padding: 3px 7px;
+    }
+
+    h5{
+        font-size: 10px;
+    }
+    .page-item{
+        font-size: 9px;
+    }
+    .page-links{
+        padding: 0px;
+    }
+    .logo{
+        font-size: 15px;
+    }
+    .footer-text{
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    p {
+        font-size: 10px;
+    }
+
+    .trainer-image-1 {
+        background: url('../images/trainer-images/susan_miranda_200.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-2 {
+        background: url('../images/trainer-images/jane_johnson_200.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-3 {
+        background: url('../images/trainer-images/anna_alfred_200.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image-4 {
+        background: url('../images/trainer-images/maria_ericson_200.jpg') no-repeat center center;
+
+    }
+
+    .trainer-image {
+        width: 200px;
+        height: 250px;
+    }
+
+    .trainer {
+        width: 200px;
+    }
+
+    /* newsletter */
+
+    .newsletter-input {
+
+        width: 170px;
+        font-size: 10px;
+    }
+
+}
