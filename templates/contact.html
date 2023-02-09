@@ -68,48 +68,46 @@
       </ul>
     </div>
   </section>
-  <section class="contact-form-section contact-form">
-  
-    <div class="contact-form-container">
-
-      <form class="contact-form" action="#" method="get">
-        <div class="row form-row-container">
-          <div class="col form-input-container">
-            <label for="name-id" class="form-label">*Your full name</label>
-            <input type="text" class="form-control contact-form-input" id="name-id" placeholder="Jane Doe">
-          </div>
-          <div class="col form-input-container">
-            <label for="email-id" class="form-label">*Your email</label>
-            <input type="email" class="form-control contact-form-input" id="email-id" placeholder="name@example.com">
-          </div>
-        </div>
-
-        <div class="row form-row-container">
-          <div class="col form-input-container">
-            <label for="tel-id" class="form-label">*Your phone number</label>
-            <input type="tel" class="form-control contact-form-input" id="tel-id" placeholder="0123456789">
-        </div>
-        
-        <div class="col form-input-container">
-          <label for="select-id" class="form-label">*What class would you like to join?</label>
-        <select id="select-id" class="form-select contact-form-select" aria-label="Default select example">
-          <option selected>Select a class</option>
-          <option value="1">Beginner Yoga</option>
-          <option value="2">Advanced Yoga</option>
-          <option value="3">Group Yoga</option>
-        </select>
+  <section class="contact-form-section">
+    <div class="form-container">
+    <form action="#" method="get">
+      <div class="row">
+        <div class="col">
+          <label for="name-id" class="form-label">*Your full name</label>
+        <input type="text" id="name-id" class="form-control form-input" placeholder="Full name" aria-label="Full name">
       </div>
+      
+      <div class="col">
+        <label for="select-id" class="form-label">*What class would you like to join?</label>
+        <select id="select-id" class="form-select form-input" aria-label="Default select example">
+          <option selected>Select a class</option>
+          <option value="beginner">Beginner Yoga</option>
+      <option value="advanced">Advanced Yoga</option>
+      <option value="group">Group Yoga</option>
+    </select>
     </div>
-
-        <div class="row form-input-container">
-          <label for="textarea-id" class="form-label">Leave a message (optional)</label>
-          <textarea class="contact-textarea" id="textarea-id" rows="5"></textarea>
-        </div>
-        <button class="orange-button" type="submit">Submit</button>
-      </form>
+  </div>
+  <div class="row">
+    <div class="col">
+      <label for="mail-id" class="form-label">*Your email</label>
+      <input type="email" class="form-control form-input" id="mail-id" placeholder="name@example.com">
     </div>
-    
-    <div class="background-image"></div>
+       <div class="col telephone-container">
+         <label for="tel-id" class="form-label">Your phone number (optional)</label>
+         <input type="tel" id="tel-id" class="form-input" placeholder="0123456789" aria-label="Telephone number">
+       </div>
+      </div>
+      
+      <div class="col textarea-container">
+        
+        <label for="textarea-id" class="form-label">Leave a message</label>
+        <textarea class="form-input" name="message" id="textarea-id" cols="30" rows="5"></textarea>
+        
+      </div>
+      <button type="submit" class="orange-button form-submit-button">Submit</button>
+    </form>
+    </div>
+    <div class="background-image contact-form-background-image"></div>
   </section>
   <footer>
     <div class="footer-content">
