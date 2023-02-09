@@ -96,3 +96,11 @@ color
 #b4bac0
 #6c757d 
 #f08080
+
+Bild av Yan Krukau: https://www.pexels.com/sv-se/foto/man-manniskor-kvinnor-traning-8436626/
+
+<a href="https://www.flaticon.com/free-icons/clock" title="clock icons">Clock icons created by Those Icons - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/people" title="people icons">People icons created by Dreamstale - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/medal" title="medal icons">Medal icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/medal" title="medal icons">Medal icons created by Freepik - Flaticon</a>
