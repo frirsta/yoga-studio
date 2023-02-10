@@ -150,14 +150,14 @@
     align-items: center;
 }
 .class-instructor-title{
-    width: 200px;
+    width: 250px;
     text-align: center;
     margin: 10px 0;
     font-size: 18px;
 }
 .class-instructor-name{
     font-size: 30px;
-    width: 200px;
+    width: 250px;
     text-align: center;
 }
 .class-instructor-image{
@@ -181,7 +181,9 @@
     width: 550px;
     max-width: 550px;
 }
-
+.instructor-info-container{
+    
+}
 
 @media screen and (max-width: 1448px) {
 
