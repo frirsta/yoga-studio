@@ -113,9 +113,48 @@
 
 
 /* class instructor */
+
+.class-instructor-section{
+    border-top: 1px solid #b4bac0;
+    border-bottom: 1px solid #b4bac0;
+}
 .class-instructor-container{
-    height: 300px;
-    border: 3px solid;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px 0px;
+}
+.class-instructor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.class-instructor-title{
+    width: 200px;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 18px;
+}
+.class-instructor-name{
+    font-size: 30px;
+    width: 200px;
+    text-align: center;
+}
+.class-instructor-image-maria{
+    background: url('../images/trainer-images/maria_ericson_200.jpg') no-repeat;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.instructor-info{
+    width: 550px;
+    max-width: 550px;
 }
 
 
