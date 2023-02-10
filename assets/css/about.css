@@ -135,9 +135,7 @@
     .about-us-text{
         width: 350px;    
     }
-    .about-us-container h2 {
-        font-size: 25px;
-    }
+
     @keyframes about-us-animation-350 {
         0% {
             background: url('../images/about_page/about_us_350.jpg') no-repeat center center;

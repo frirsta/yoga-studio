@@ -9,7 +9,6 @@
     align-items: center;
 }
 .beginner-class-section h2{
-   
     font-size: 45px;
 }
 .beginner-image{
@@ -31,8 +30,10 @@
     justify-content: space-evenly;
     padding-top: 30px;
     font-size: 20px;
+    max-width: 100%;
 }
 .class-information-container{
+    text-align: center;
     width: 200px;
 }
 .classes-icon{}
@@ -69,4 +70,77 @@
 .class-instructor-container{
     height: 300px;
     border: 3px solid;
+}
+
+
+@media screen and (max-width: 1448px) {
+    .beginner-image{
+        background: url('../images/classes_page/beginner_900.jpg') no-repeat center center;
+        height: 375px;
+        width: 900px;
+    }
+    .beginner-text{
+        width: 700px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .beginner-image{
+        background: url('../images/classes_page/beginner_700.jpg') no-repeat center center;
+        height: 292px;
+        width: 700px;
+    }
+    .beginner-text{
+        width: 600px;
+    }
+    .beginner-class-section h2 {
+        font-size: 30px;
+    }
+    .class-information-container{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .beginner-image{
+        background: url('../images/classes_page/beginner_500.jpg') no-repeat center center;
+        height: 208px;
+        width: 500px;
+    }
+    .beginner-text{
+        width: 500px;
+    }
+    .beginner-class-section h2 {
+        font-size: 25px;
+    }
+    .class-information-container {
+        font-size: 13px;
+        width: 150px;
+    }
+}
+@media screen and (max-width: 678px) {
+    .beginner-image{
+        max-width: 90%;
+    }
+    .beginner-text{
+        max-width: 90%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .beginner-image{
+        background: url('../images/classes_page/beginner_350.jpg') no-repeat center center;
+        height: 146px;
+        width: 350px;
+    }
+    .beginner-text{
+        width: 350px;
+    }
+    .class-information-container {
+        font-size: 12px;
+        width: 120px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .class-information-container {
+        font-size: 8px;
+        width: 100px;
+    }
 }

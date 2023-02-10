@@ -32,6 +32,10 @@ body {
     border-color: #464646;
 }
 
+.navbar-border{
+    border-bottom: 1px solid #b4bac0;
+}
+
 .navbar {
     width: 100%;
     position: absolute;

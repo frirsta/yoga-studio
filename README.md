@@ -104,3 +104,7 @@ Bild av Yan Krukau: https://www.pexels.com/sv-se/foto/man-manniskor-kvinnor-tran
 <a href="https://www.flaticon.com/free-icons/people" title="people icons">People icons created by Dreamstale - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/medal" title="medal icons">Medal icons created by Freepik - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/medal" title="medal icons">Medal icons created by Freepik - Flaticon</a>
+
+    <div class="breadcumb-horizontal-line-container">
+      <div class="breadcrumb-horizontal-line"></div>
+    </div>
