@@ -84,13 +84,13 @@
           <div class="col">
             <label for="name-id" class="form-label">*Your full name</label>
             <input type="text" id="name-id" class="form-control form-input" placeholder="Full name"
-              aria-label="Full name">
+              aria-label="Full name" required>
           </div>
 
           <div class="col">
             <label for="select-id" class="form-label">*What class would you like to join?</label>
-            <select id="select-id" class="form-select form-input" aria-label="Default select example">
-              <option selected>Select a class</option>
+            <select id="select-id" class="form-select form-input" aria-label="Default select example" required>
+              <option selected disabled value="">Select a class</option>
               <option value="beginner">Beginner Yoga</option>
               <option value="advanced">Advanced Yoga</option>
               <option value="group">Group Yoga</option>
@@ -100,7 +100,7 @@
         <div class="row">
           <div class="col">
             <label for="mail-id" class="form-label">*Your email</label>
-            <input type="email" class="form-control form-input" id="mail-id" placeholder="name@example.com">
+            <input type="email" class="form-control form-input" id="mail-id" placeholder="name@example.com" required>
           </div>
           <div class="col telephone-container">
             <label for="tel-id" class="form-label">Your phone number (optional)</label>
