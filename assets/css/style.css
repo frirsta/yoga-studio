@@ -28,12 +28,20 @@ body {
     --bs-btn-active-bg: #464646;
 }
 
+.bg-body-tertiary{
+    background-color: transparent!important;
+}
+
 .btn:hover {
     border-color: #464646;
 }
 
 .navbar-border{
     border-bottom: 1px solid #b4bac0;
+}
+
+.website-logo{
+    padding-right: 5px;
 }
 
 .navbar {
@@ -47,6 +55,8 @@ body {
     font-size: 30px;
     position: relative;
     left: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-nav {
