@@ -113,3 +113,5 @@ Bild av Yan Krukau: https://www.pexels.com/sv-se/foto/man-manniskor-kvinnor-tran
 
     Bild av Yan Krukau: https://www.pexels.com/sv-se/foto/manniskor-kondition-yoga-halsa-8436620/
     Bild av Yan Krukau: https://www.pexels.com/sv-se/foto/vanner-kvinnor-lycklig-leende-8436550/
+    <div> Icons made by <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+    <a href="https://www.flaticon.com/free-icons/lotus" title="lotus icons">Lotus icons created by Freepik - Flaticon</a>

@@ -162,7 +162,7 @@ body {
 
 .classes-link {
     text-decoration: none;
-    color: lightcoral;
+    color: orangered;
     font-size: 20px;
     font-weight: 700;
 }
@@ -366,7 +366,7 @@ body {
 
 .orange-button {
     padding: 10px 15px;
-    background-color: lightcoral;
+    background-color: orangered;
     color: #fff;
     border-radius: 4px;
     font-size: 16px;
