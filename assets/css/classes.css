@@ -17,10 +17,13 @@
     width: 1200px;
     border-radius: 10px;
     margin-top: 30px;
+    max-width: 90%;
 }
 .beginner-text{
-    width: 900px;
-    padding-top: 30px;
+    text-align: center;
+    width: 80%;
+    padding-top: 80px;
+    max-width: 90%;
 }
 
 .class-information{
@@ -46,8 +49,9 @@
     border: none;
     background-color: #e5feda;
     width: 200px;
-    padding: 10px 5px;
     color: #129263;
+    padding: 8px 5px;
+    margin-bottom: 20px;
 }
 .circle{
     height: 8px;
@@ -59,10 +63,52 @@
 
 /* schedule */
 
-.beginner-class-schedule{}
+.beginner-class-schedule{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 .class-schedule{
-    height: 500px;
-    border: 3px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 480px;
+    border: 1px solid #129263;
+    background-color: #e5feda;
+    padding: 20px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    
+}
+
+.schedule-class{}
+.class-day {
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0px;
+}
+.class-time{
+    margin: 0px;
+    font-weight: 700;
+}
+.class-text{
+    font-size: 14px;
+}
+.class-logo{
+    text-align: center;
+    background-color: #fff;
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin: 5px 0px;
+}
+.class-image{
+    padding-right: 10px;
 }
 
 
@@ -74,24 +120,15 @@
 
 
 @media screen and (max-width: 1448px) {
+
+}
+@media screen and (max-width: 1024px) {
     .beginner-image{
         background: url('../images/classes_page/beginner_900.jpg') no-repeat center center;
         height: 375px;
         width: 900px;
-    }
-    .beginner-text{
-        width: 700px;
-    }
-}
-@media screen and (max-width: 1024px) {
-    .beginner-image{
-        background: url('../images/classes_page/beginner_700.jpg') no-repeat center center;
-        height: 292px;
-        width: 700px;
-    }
-    .beginner-text{
-        width: 600px;
-    }
+    } 
+
     .beginner-class-section h2 {
         font-size: 30px;
     }
@@ -101,12 +138,9 @@
 }
 @media screen and (max-width: 768px) {
     .beginner-image{
-        background: url('../images/classes_page/beginner_500.jpg') no-repeat center center;
-        height: 208px;
-        width: 500px;
-    }
-    .beginner-text{
-        width: 500px;
+        background: url('../images/classes_page/beginner_700.jpg') no-repeat center center;
+        height: 292px;
+        width: 700px;
     }
     .beginner-class-section h2 {
         font-size: 25px;
@@ -116,23 +150,14 @@
         width: 150px;
     }
 }
-@media screen and (max-width: 678px) {
-    .beginner-image{
-        max-width: 90%;
-    }
-    .beginner-text{
-        max-width: 90%;
-    }
-}
+
 @media screen and (max-width: 425px) {
     .beginner-image{
-        background: url('../images/classes_page/beginner_350.jpg') no-repeat center center;
-        height: 146px;
-        width: 350px;
-    }
-    .beginner-text{
-        width: 350px;
-    }
+        background: url('../images/classes_page/beginner_500.jpg') no-repeat center center;
+        height: 208px;
+        width: 500px;
+    } 
+
     .class-information-container {
         font-size: 12px;
         width: 120px;

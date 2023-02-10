@@ -75,6 +75,7 @@ body {
     align-items: end;
     height: 100px;
     padding-left: 32px;
+    height: 115px;
 }
 
 .breadcrumb-item a{
