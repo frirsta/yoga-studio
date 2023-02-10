@@ -1,5 +1,5 @@
-/* beginner class */
-.beginner-class-section{
+/* class */
+.class-section{
     width: 100%;
     padding-top: 80px;
     padding-bottom: 100px;
@@ -8,18 +8,32 @@
     justify-content: center;
     align-items: center;
 }
-.beginner-class-section h2{
+.class-section h2{
     font-size: 45px;
 }
-.beginner-image{
-    background: url('../images/classes_page/beginner_1200.jpg') no-repeat center center;
+.class-image{
     height: 500px;
     width: 1200px;
     border-radius: 10px;
     margin-top: 30px;
     max-width: 90%;
 }
-.beginner-text{
+.beginner-image{
+    background: url('../images/classes_page/beginner_1200.jpg') no-repeat center center;
+
+}
+
+.advanced-image{
+    background: url('../images/classes_page/advanced_1200.jpg') no-repeat center center;
+
+}
+
+.group-image{
+    background: url('../images/classes_page/group_1200.jpg') no-repeat center center;
+
+}
+
+.class-text{
     text-align: center;
     width: 80%;
     padding-top: 80px;
@@ -63,7 +77,7 @@
 
 /* schedule */
 
-.beginner-class-schedule{
+.class-schedule-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -95,7 +109,7 @@
     margin: 0px;
     font-weight: 700;
 }
-.class-text{
+.class-schedule-text{
     font-size: 14px;
 }
 .class-logo{
@@ -107,7 +121,7 @@
     padding: 3px 10px;
     margin: 5px 0px;
 }
-.class-image{
+.class-image-logo{
     padding-right: 10px;
 }
 
@@ -146,12 +160,23 @@
     width: 200px;
     text-align: center;
 }
-.class-instructor-image-maria{
-    background: url('../images/trainer-images/maria_ericson_200.jpg') no-repeat;
+.class-instructor-image{
     height: 200px;
     width: 200px;
     border-radius: 50%;
 }
+.class-instructor-image-maria{
+    background: url('../images/trainer-images/maria_ericson_200.jpg') no-repeat;
+
+}
+.class-instructor-image-susan{
+    background: url('../images/trainer-images/susan_miranda_200.jpg') no-repeat;
+}
+.class-instructor-image-jane{
+    background: url('../images/trainer-images/jane_johnson_200.jpg') no-repeat;
+}
+
+
 .instructor-info{
     width: 550px;
     max-width: 550px;
@@ -162,49 +187,187 @@
 
 }
 @media screen and (max-width: 1024px) {
-    .beginner-image{
-        background: url('../images/classes_page/beginner_900.jpg') no-repeat center center;
+    .class-section{
+        padding-top: 50px;
+        padding-bottom: 50px; 
+    }
+
+    .class-image{
         height: 375px;
         width: 900px;
-    } 
+    }
+    .beginner-image{
+        background: url('../images/classes_page/beginner_900.jpg') no-repeat center center;
+    
+    }
+    .advanced-image{
+        background: url('../images/classes_page/advanced_900.jpg') no-repeat center center;
+    }
 
-    .beginner-class-section h2 {
+    .group-image{
+        background: url('../images/classes_page/group_900.jpg') no-repeat center center;
+    
+    }
+    .class-section h2 {
         font-size: 30px;
     }
     .class-information-container{
         font-size: 18px;
     }
+    /* instructor */
+    .class-instructor-name {
+        font-size: 25px;
+}
+.class-instructor-title {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+
+.class-instructor-image{
+    height: 150px;
+    width: 150px;
+}
+.class-instructor-image-maria{
+    background: url('../images/trainer-images/maria_ericson_150.jpg') no-repeat;
+
+}
+.class-instructor-image-susan{
+    background: url('../images/trainer-images/susan_miranda_150.jpg') no-repeat;
+}
+.class-instructor-image-jane{
+    background: url('../images/trainer-images/jane_johnson_150.jpg') no-repeat;
+}
 }
 @media screen and (max-width: 768px) {
-    .beginner-image{
-        background: url('../images/classes_page/beginner_700.jpg') no-repeat center center;
+    .class-section,
+    .class-text{
+        padding-top: 40px;
+        padding-bottom: 20px; 
+    }
+
+    .classes-title{
+        font-size: 14px;
+    }
+
+
+
+    .class-image{
         height: 292px;
         width: 700px;
     }
-    .beginner-class-section h2 {
+    .beginner-image{
+        background: url('../images/classes_page/beginner_700.jpg') no-repeat center center;
+    
+    }
+    .advanced-image{
+        background: url('../images/classes_page/advanced_700.jpg') no-repeat center center;
+    }
+    
+.group-image{
+    background: url('../images/classes_page/group_700.jpg') no-repeat center center;
+
+}
+    .class-section h2 {
         font-size: 25px;
     }
     .class-information-container {
         font-size: 13px;
         width: 150px;
     }
+
+    /* schedule */
+    .class-schedule {
+        margin-top: 0px;
+    }
+
+    /* instructor */
+    .instructor-info{
+        font-size: 15px;
+
+    }
+
+}
+
+@media screen and (max-width: 592px) {
+    .class-instructor-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .class-instructor-image{
+        height: 200px;
+        width: 200px;
+        margin-bottom: 10px;
+    }
+    .class-instructor-image-maria{
+        background: url('../images/trainer-images/maria_ericson_200.jpg') no-repeat;
+    
+    }
+    .class-instructor-image-susan{
+        background: url('../images/trainer-images/susan_miranda_200.jpg') no-repeat;
+    }
+    .class-instructor-image-jane{
+        background: url('../images/trainer-images/jane_johnson_200.jpg') no-repeat;
+    }
+    .instructor-info{
+        max-width: 90%;
+    }
 }
 
 @media screen and (max-width: 425px) {
-    .beginner-image{
-        background: url('../images/classes_page/beginner_500.jpg') no-repeat center center;
+
+    .class-image{
         height: 208px;
         width: 500px;
-    } 
+    }
+    .beginner-image{
+        background: url('../images/classes_page/beginner_500.jpg') no-repeat center center;
+    
+    }
+    .advanced-image{
+        background: url('../images/classes_page/advanced_500.jpg') no-repeat center center;
+    }
 
+    .group-image{
+        background: url('../images/classes_page/group_500.jpg') no-repeat center center;
+    
+    }
     .class-information-container {
         font-size: 12px;
         width: 120px;
+    }
+    /*schedule*/
+    .class-schedule {
+        max-width: 90%;
+    }
+    .class-logo{
+        padding: 2px 8px;
     }
 }
 @media screen and (max-width: 375px) {
     .class-information-container {
         font-size: 8px;
         width: 100px;
+    }
+    /*schedule*/
+    .class-schedule-text {
+        font-size: 11px;
+    }
+    /* instructor */
+
+    .class-instructor-image{
+        height: 150px;
+        width: 150px;
+    }
+    .class-instructor-image-maria{
+        background: url('../images/trainer-images/maria_ericson_150.jpg') no-repeat;
+    
+    }
+    .class-instructor-image-susan{
+        background: url('../images/trainer-images/susan_miranda_150.jpg') no-repeat;
+    }
+    .class-instructor-image-jane{
+        background: url('../images/trainer-images/jane_johnson_150.jpg') no-repeat;
     }
 }
