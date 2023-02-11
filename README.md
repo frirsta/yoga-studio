@@ -116,3 +116,4 @@ Bild av Yan Krukau: https://www.pexels.com/sv-se/foto/man-manniskor-kvinnor-tran
     <div> Icons made by <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
     <a href="https://www.flaticon.com/free-icons/lotus" title="lotus icons">Lotus icons created by Freepik - Flaticon</a>
     <a href="https://www.flaticon.com/free-icons/signature" title="signature icons">Signature icons created by Freepik - Flaticon</a>
+    #f08080<a href="https://www.flaticon.com/free-icons/lotus" title="lotus icons">Lotus icons created by Freepik - Flaticon</a>
