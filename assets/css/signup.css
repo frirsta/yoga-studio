@@ -1,0 +1,44 @@
+.signup-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+   
+}
+.signup-title-container{
+    max-width: 90%;
+    text-align: center;
+}
+.signup-title{
+    font-size: 40px;
+}
+.signup-info{
+   
+}
+
+.form-container {
+    position: unset;
+}
+
+.form-input{
+    background-color: #edf8ff;
+}
+
+@media screen and (max-width: 1024px) {
+    .signup-title{
+        font-size: 35px;
+    }
+    .signup-info{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .signup-title{
+        font-size: 20px;
+    }
+    .signup-info{
+        font-size: 12px;
+    }
+}
