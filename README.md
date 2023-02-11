@@ -117,3 +117,8 @@ Bild av Yan Krukau: https://www.pexels.com/sv-se/foto/man-manniskor-kvinnor-tran
     <a href="https://www.flaticon.com/free-icons/lotus" title="lotus icons">Lotus icons created by Freepik - Flaticon</a>
     <a href="https://www.flaticon.com/free-icons/signature" title="signature icons">Signature icons created by Freepik - Flaticon</a>
     #f08080<a href="https://www.flaticon.com/free-icons/lotus" title="lotus icons">Lotus icons created by Freepik - Flaticon</a>
+
+    Image by rawpixel.com
+    Image by rawpixel.com
+    <a href="https://www.freepik.com/free-photo/beautiful-girl-is-engaged-yoga-studio_6423761.htm#query=yoga&position=12&from_view=search&track=sph">Image by prostooleh</a> on Freepik
+    <a href="https://www.freepik.com/free-photo/young-women-yoga-indoors-keep-calm-meditates-while-practicing-yoga-explore-inner-peace-yoga-meditation-have-good-benefits-health-photo-concept-yoga-sport-healthy-lifestyle_1253639.htm#query=yoga&position=16&from_view=search&track=sph">Image by tirachard</a> on Freepik
