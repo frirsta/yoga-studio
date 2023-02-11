@@ -26,6 +26,16 @@
 .about-us-text{
     width: 900px;
     padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-signature{
+    background: url('../images/about_page/signature128.png');
+    height: 128px;
+    width: 128px;
 }
 @keyframes about-us-animation {
     0% {
@@ -100,6 +110,11 @@
     }
     .about-us-container h2 {
         font-size: 25px;
+    }
+    .about-signature{
+        background: url('../images/about_page/signature64.png');
+        height: 64px;
+        width: 64px;
     }
     @keyframes about-us-animation-500 {
         0% {

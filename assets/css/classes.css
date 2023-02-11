@@ -179,12 +179,15 @@
 
 .instructor-info{
     width: 550px;
-    max-width: 550px;
+    max-width: 95%;
+    margin-bottom: 15px;
 }
 .instructor-info-container{
     
 }
+.enroll-button{
 
+}
 @media screen and (max-width: 1448px) {
 
 }
@@ -284,10 +287,22 @@
     }
 
     /* instructor */
-    .instructor-info{
-        font-size: 15px;
 
-    }
+    .class-instructor-name {
+        font-size: 20px;
+        width: 180px;
+}
+.class-instructor-title {
+    margin: 5px 0;
+    font-size: 13px;
+    width: 180px;
+}
+
+.instructor-info {
+    font-size: 15px;
+    max-width: 99%;
+    width: 400px;
+}
 
 }
 
@@ -312,8 +327,8 @@
     .class-instructor-image-jane{
         background: url('../images/trainer-images/jane_johnson_200.jpg') no-repeat;
     }
-    .instructor-info{
-        max-width: 90%;
+    .instructor-info {
+        max-width: 100%;
     }
 }
 
@@ -346,6 +361,14 @@
     .class-logo{
         padding: 2px 8px;
     }
+
+    /* instructor */
+
+    .instructor-info {
+        width: 350px;
+        font-size: 12px;
+    }
+
 }
 @media screen and (max-width: 375px) {
     .class-information-container {
@@ -371,5 +394,10 @@
     }
     .class-instructor-image-jane{
         background: url('../images/trainer-images/jane_johnson_150.jpg') no-repeat;
+    }
+
+    .instructor-info {
+        width: fit-content;
+        margin: 10px;
     }
 }
