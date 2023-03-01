@@ -83,23 +83,21 @@ form{
     }
 
     /* form */
-
-    .form-label,
-    .form-input{
-        font-size: 13px;
+    .row{
+        flex-direction: column;
     }
-
+    .form-col{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 592px) {
     .contact-form-background-image{
         height: 500px;
     }
+
 }
 @media screen and (max-width: 479px) {
-    .row{
-        flex-direction: column;
-    }
     /* form */
 
 }

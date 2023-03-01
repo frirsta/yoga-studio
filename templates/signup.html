@@ -67,21 +67,21 @@
     </nav>
   </section>
 
-  <section class="signup-section">
+  <section class="section">
     <div class="signup-title-container">
     <h2 class="signup-title">Sign up for our class today</h2>
-    <span class="text-muted signup-info">Select the class you want to participate in, and we will contact you within 24 hours to book a free trial class.</span>
+    <span class="text-muted">Select the class you want to participate in, and we will contact you within 24 hours to book a free trial class.</span>
 </div>
     <div class="form-container">
       <form action="./signup_response.html" method="get">
         <div class="row">
-          <div class="col">
+          <div class="col form-col">
             <label for="name-id" class="form-label">*Your full name</label>
             <input type="text" id="name-id" class="form-control form-input" placeholder="Full name"
               aria-label="Full name" required>
           </div>
 
-          <div class="col">
+          <div class="col form-col">
             <label for="select-id" class="form-label">*What class would you like to join?</label>
             <select id="select-id" class="form-select form-input" aria-label="Default select example" required>
               <option selected disabled value="">Select a class</option>
@@ -92,17 +92,17 @@
           </div>
         </div>
         <div class="row">
-          <div class="col">
+          <div class="col form-col">
             <label for="mail-id" class="form-label">*Your email</label>
             <input type="email" class="form-control form-input" id="mail-id" placeholder="name@example.com" required>
           </div>
-          <div class="col telephone-container">
+          <div class="col form-col telephone-container">
             <label for="tel-id" class="form-label">Your phone number (optional)</label>
             <input type="tel" id="tel-id" class="form-input" placeholder="0123456789" aria-label="Telephone number">
           </div>
         </div>
 
-        <div class="col textarea-container">
+        <div class="col form-col textarea-container">
 
           <label for="textarea-id" class="form-label">Leave a message</label>
           <textarea class="form-input" name="message" id="textarea-id" cols="30" rows="9"></textarea>
