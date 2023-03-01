@@ -180,10 +180,7 @@ color: orangered!important;
     margin: 0 auto;
 }
 
-.classes-section {
-    justify-content: center;
-    align-items: center;
-}
+
 
 .home-classes-container {
     display: flex;
@@ -557,10 +554,6 @@ h5 {
 
     /* classes */
 
-    .classes-section {
-        padding-top: 40px;
-        padding-bottom: 50px;
-    }
 
     .classes-link {
         font-size: 17px;
@@ -722,17 +715,6 @@ h5 {
 
     /* classes */
 
-    .classes-section {
-        padding-top: 20px;
-        padding-bottom: 25px;
-    }
-
-    .home-classes {}
-
-
-
-    .home-classes-container {}
-
     .classes-link {
         font-size: 15px;
     }
@@ -746,9 +728,6 @@ h5 {
     }
 
     /* about */
-    .about-section {
-        height: unset;
-    }
 
     .about-container {
         flex-direction: column-reverse;
@@ -918,6 +897,8 @@ h5 {
 
     .newsletter-text {
         height: 300px;
+        max-width: 95%;
+        text-align: center;
     }
 
     .background-image {
@@ -1058,9 +1039,7 @@ h5 {
     h5{
         font-size: 10px;
     }
-    p {
-        font-size: 11px;
-    }
+
     .text-muted {
         font-size: 15px;
     }
@@ -1117,9 +1096,6 @@ h5 {
 }
 
 @media screen and (max-width: 320px) {
-    p {
-        font-size: 10px;
-    }
     .trainer-image-1 {
         background: url('../images/trainer-images/susan_miranda_200.jpg') no-repeat center center;
 }
