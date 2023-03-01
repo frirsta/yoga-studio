@@ -31,13 +31,6 @@
 
 }
 
-.class-text{
-    text-align: center;
-    width: 80%;
-    padding-top: 80px;
-    max-width: 90%;
-}
-
 .class-information{
     width: 1200px;
     display: flex;
@@ -240,12 +233,6 @@
 }
 }
 @media screen and (max-width: 768px) {
-    .class-section,
-    .class-text{
-        padding-top: 40px;
-        padding-bottom: 20px; 
-    }
-
     .class-image{
         height: 292px;
         width: 700px;

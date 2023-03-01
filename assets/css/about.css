@@ -1,9 +1,4 @@
 /* about us section */
-.about-us{
-    width: 100%;
-    padding-top: 80px;
-    padding-bottom: 100px;
-}
 .about-us-container{
     display: flex;
     flex-direction: column;
@@ -18,20 +13,12 @@
     border-radius: 10px;
     position: relative; 
     margin-top: 30px;
-}
-.about-us-text{
-    width: 900px;
-    padding-top: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    max-width: 95vw;
 }
 
 .about-signature{
-    background: url('../images/about_page/signature128.png');
+    background: url('../images/about_page/signature128.png') no-repeat center center;
     height: 128px;
-    width: 128px;
 }
 
 @media screen and (max-width: 1448px) {
@@ -41,38 +28,20 @@
         width: 900px;
         margin-top: 20px;
     }
-    .about-us-text{
-        width: 700px;
-    }
+
 }
 @media screen and (max-width: 1024px) {
-    .about-us {
-        width: 100%;
-        padding-top: 50px;
-        padding-bottom: 70px;
-    }
     .about-us-image{
         background: url('../images/about_page/about_us_700.jpg') no-repeat center center;
         height: 321px;
         width: 700px;
     }
-    .about-us-text{
-        width: 600px;
-    }
+
 }
 @media screen and (max-width: 768px) {
-    .about-us-image{
-        max-width: 95%;
-    }
-    .about-us-text{
-        width: 500px;
-        max-width: 90%;
-    }
-
     .about-signature{
-        background: url('../images/about_page/signature64.png');
+        background: url('../images/about_page/signature64.png') no-repeat center center;
         height: 64px;
-        width: 64px;
     }
 }
 @media screen and (max-width: 425px) {
@@ -81,7 +50,5 @@
         height: 161px;
         width: 350px;
     }
-    .about-us-text{
-        width: 350px;    
-    }
+
 }

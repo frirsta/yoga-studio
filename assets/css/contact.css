@@ -1,18 +1,11 @@
-.contact-container{}
 .contact-button-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
+text-align: center;
+width: 100%;
 }
 .contact-button-list{
     list-style: none;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
     padding: 0;
 }
 .contact-button{
@@ -31,20 +24,15 @@
 .contact-form-section {
     background-color: #edf8ff;
     overflow: hidden;
-    display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
     z-index: 0;
     position: relative;
 }
 .form-container{
     width: 100%;
-    max-width: 1200px;
     z-index: 10;
     position: absolute;
-    padding-top: 80px;
-    padding-bottom: 100px;
+    max-width: 95vw;
 }
 
 form{
@@ -95,14 +83,7 @@ form{
     }
 
     /* form */
-    .form-container{
-        padding-top: 50px;
-        padding-bottom: 70px;
-    }
-    form{
-        width: 95%;
-        max-width: none;
-    }
+
     .form-label,
     .form-input{
         font-size: 13px;
@@ -111,9 +92,6 @@ form{
 }
 
 @media screen and (max-width: 592px) {
-    .contact-button{
-        margin: 10px auto;
-    }
     .contact-form-background-image{
         height: 500px;
     }
@@ -122,32 +100,11 @@ form{
     .row{
         flex-direction: column;
     }
-    .contact-button {
-
-        padding: 5px 0px;
-    }
     /* form */
-    .form-container {
-        padding-top: 30px;
-        padding-bottom: 40px;
-    }
-    .form-label,
-    .form-input,
-    .contact-button{
-        font-size: 11px;
-    }
+
 }
 
 @media screen and (max-width: 375px) {
-    .form-container {
-        padding-top: 10px;
-        padding-bottom: 20px;
-    }
-    .form-label,
-    .form-input,
-    .contact-button{
-        font-size: 8px;
-    }
 
     .form-input{
         padding: 4px 8px;
