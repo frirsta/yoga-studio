@@ -27,6 +27,9 @@ body {
     border-color: #464646;
     --bs-btn-hover-bg: #464646;
     --bs-btn-active-bg: #464646;
+}
+
+.hero-button{
     font-weight: 900;
     background: linear-gradient(45deg, #464646, transparent);
 }
@@ -513,9 +516,6 @@ h5 {
 
 @media screen and (max-width: 1024px) {
     /* classes */
-    .classes-link {
-        font-size: 17px;
-    }
     .yoga-image {
         height: 128px;
         width: 128px;
@@ -619,9 +619,6 @@ h5 {
     font-size: 30px!important;
     }
     /* classes */
-    .classes-link {
-        font-size: 15px;
-    }
     /* trainer section */
 
     /* about */
@@ -691,9 +688,6 @@ h5 {
     .hero-title{
         font-size: 25px!important;
     }
-    .yoga-image {
-        margin: 20px;
-    }
     /* about */
     .about-image {
         background: url('../images/about/about_600.jpg') no-repeat center center;
@@ -720,20 +714,39 @@ h5 {
         right: -35%;
         z-index: 1;
     }
-}
-@media screen and (max-width: 479px) {
+    /* yoga classes */
     .home-classes-container {
         flex-direction: column;
         align-items: center;
     }
     .home-classes {
-        width: 70%;
+        width: 80%;
         height: unset;
         margin: 10px;
     }
     .yoga-image {
-        margin: 10px;
+        height: 128px;
+        width: 128px;
+        margin: 20px 0;
     }
+    .yoga-image-one {
+        background: url('../images/classes_images/yoga_pose_1_1024.png') no-repeat center center;
+    }
+
+    .yoga-image-two {
+        background: url('../images/classes_images/yoga_pose_2_1024.png') no-repeat center center;
+    }
+
+    .yoga-image-three {
+        background: url('../images/classes_images/yoga_pose_3_1024.png') no-repeat center center;
+    }
+    /* trainer */
+    .trainer-image{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 479px) {
+
     /* trainers */
 }
 @media screen and (max-width: 425px) {
@@ -823,6 +836,8 @@ h5 {
     }
 }
 @media screen and (max-width: 320px) {
+        /* classes */
+    
     .trainer-image {
     max-width: 95vw;
 }
