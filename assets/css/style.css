@@ -27,6 +27,8 @@ body {
     border-color: #464646;
     --bs-btn-hover-bg: #464646;
     --bs-btn-active-bg: #464646;
+    font-weight: 900;
+    background: linear-gradient(45deg, #464646, transparent);
 }
 
 .bg-body-tertiary{
