@@ -10,16 +10,12 @@
     justify-content: center;
     align-items: center;
 }
-.about-us-container h2 {
-    font-size: 45px;
-}
+
 .about-us-image{
     background: url('/assets/images/about_page/about_us.jpg') no-repeat center center;
     height: 550px;
     width: 1200px;
     border-radius: 10px;
-    animation-duration: 2s;
-    animation-name: about-us-animation;
     position: relative; 
     margin-top: 30px;
 }
@@ -37,36 +33,16 @@
     height: 128px;
     width: 128px;
 }
-@keyframes about-us-animation {
-    0% {
-        background: url('../images/about_page/about_us.jpg') no-repeat center center;
-        transform: scale(0);
-    }
-    100% {
-        background: url('../images/about_page/about_us.jpg') no-repeat center center;
-        transform: scale(1);
-    }
-}
+
 @media screen and (max-width: 1448px) {
     .about-us-image{
         background: url('../images/about_page/about_us_900.jpg') no-repeat center center;
         height: 413px;
         width: 900px;
-        animation-name: about-us-animation-900;
         margin-top: 20px;
     }
     .about-us-text{
         width: 700px;
-    }
-    @keyframes about-us-animation-900 {
-        0% {
-            background: url('../images/about_page/about_us_900.jpg') no-repeat center center;
-            transform: scale(0);
-        }
-        100% {
-            background: url('../images/about_page/about_us_900.jpg') no-repeat center center;
-            transform: scale(1);
-        }
     }
 }
 @media screen and (max-width: 1024px) {
@@ -79,86 +55,33 @@
         background: url('../images/about_page/about_us_700.jpg') no-repeat center center;
         height: 321px;
         width: 700px;
-        animation-name: about-us-animation-700;
     }
     .about-us-text{
         width: 600px;
     }
-    .about-us-container h2 {
-        font-size: 30px;
-    }
-    @keyframes about-us-animation-700 {
-        0% {
-            background: url('../images/about_page/about_us_700.jpg') no-repeat center center;
-            transform: scale(0);
-        }
-        100% {
-            background: url('../images/about_page/about_us_700.jpg') no-repeat center center;
-            transform: scale(1);
-        }
-    }
 }
 @media screen and (max-width: 768px) {
     .about-us-image{
-        background: url('../images/about_page/about_us_500.jpg') no-repeat center center;
-        height: 229px;
-        width: 499px;
-        animation-name: about-us-animation-500;
+        max-width: 95%;
     }
     .about-us-text{
-        width: 500px;    
+        width: 500px;
+        max-width: 90%;
     }
-    .about-us-container h2 {
-        font-size: 25px;
-    }
+
     .about-signature{
         background: url('../images/about_page/signature64.png');
         height: 64px;
         width: 64px;
     }
-    @keyframes about-us-animation-500 {
-        0% {
-            background: url('../images/about_page/about_us_500.jpg') no-repeat center center;
-            transform: scale(0);
-        }
-        100% {
-            background: url('../images/about_page/about_us_500.jpg') no-repeat center center;
-            transform: scale(1);
-        }
-    }
-}
-@media screen and (max-width: 678px) {
-    .about-us-image{
-        max-width: 90%;
-    }
-    .about-us-text{
-        max-width: 90%;
-    }
 }
 @media screen and (max-width: 425px) {
-    .about-us{
-        padding-top: 30px;
-        padding-bottom: 50px;
-    }
-
     .about-us-image{
         background: url('../images/about_page/about_us_350.jpg') no-repeat center center;
         height: 161px;
         width: 350px;
-        animation-name: about-us-animation-350;
     }
     .about-us-text{
         width: 350px;    
-    }
-
-    @keyframes about-us-animation-350 {
-        0% {
-            background: url('../images/about_page/about_us_350.jpg') no-repeat center center;
-            transform: scale(0);
-        }
-        100% {
-            background: url('../images/about_page/about_us_350.jpg') no-repeat center center;
-            transform: scale(1);
-        }
     }
 }

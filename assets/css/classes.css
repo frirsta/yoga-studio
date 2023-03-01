@@ -8,9 +8,7 @@
     justify-content: center;
     align-items: center;
 }
-.class-section h2{
-    font-size: 45px;
-}
+
 .class-image{
     height: 500px;
     width: 1200px;
@@ -213,9 +211,6 @@
         background: url('../images/classes_page/group_900.jpg') no-repeat center center;
     
     }
-    .class-section h2 {
-        font-size: 30px;
-    }
     .class-information-container{
         font-size: 18px;
     }
@@ -251,12 +246,6 @@
         padding-bottom: 20px; 
     }
 
-    .classes-title{
-        font-size: 14px;
-    }
-
-
-
     .class-image{
         height: 292px;
         width: 700px;
@@ -273,9 +262,6 @@
     background: url('../images/classes_page/group_700.jpg') no-repeat center center;
 
 }
-    .class-section h2 {
-        font-size: 25px;
-    }
     .class-information-container {
         font-size: 13px;
         width: 150px;
