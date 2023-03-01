@@ -156,6 +156,7 @@ color: orangered!important;
 .cover-text {
     width: 80%;
     color: #464646;
+    max-width: 1200px;
 }
 
 /* home classes */
@@ -767,20 +768,11 @@ h5 {
     font-size: 30px!important;
     }
 
-    .text-muted {
-        font-size: 12px;
-    }
-
-
     /* classes */
 
     .classes-section {
         padding-top: 20px;
         padding-bottom: 25px;
-    }
-
-    .home-title {
-        font-size: 20px;
     }
 
     .home-classes {}
@@ -911,15 +903,20 @@ h5 {
 }
 
 @media screen and (max-width: 592px) {
+    .home-title {
+        font-size: 25px;
+    }
+
+    .text-muted{
+        font-size: 15px;
+    }
+
     .hero-yoga {
         font-size: 80px;
     }
     .hero-title{
         font-size: 25px!important;
         }
-    .text-muted {
-        font-size: 10px;
-    }
 
     .trainer-image-1 {
         background: url('../images/trainer-images/susan_miranda_100.jpg') no-repeat center center;
