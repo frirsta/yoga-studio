@@ -1,6 +1,6 @@
 # Mind & Body Yoga Studio
 Live link to the website: [Mind and Body](https://frirsta.github.io/yoga-studio/)
-
+<img src="assets/images/readme/all-devices-yoga.png" alt="home page on all screens">
 
 ## Features
 
