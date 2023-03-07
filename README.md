@@ -2,8 +2,46 @@
 Live link to the website: [Mind and Body](https://frirsta.github.io/yoga-studio/)
 
 
+## Features
+
+### Home
+<img src="assets/images/readme/hero_desktop.png" alt="home page on desktop screen" style="width: 40%">
+<img src="assets/images/readme/hero_tablet.png" alt="home page on tablet screen" style="width: 30%">
+<img src="assets/images/readme/hero_mobile.png" alt="home page on mobile screen" style="width: 20%">
+
+### about
+<img src="assets/images/readme/about_desktop.png" alt="about page on desktop screen" style="width: 40%">
+<img src="assets/images/readme/about_tablet.png" alt="about page on tablet screen" style="width: 30%">
+<img src="assets/images/readme/about_mobile.png" alt="about page on mobile screen" style="width: 20%">
+
+### class
+<img src="assets/images/readme/class_desktop.png" alt="class page on desktop screen" style="width: 40%">
+<img src="assets/images/readme/class_tablet.png" alt="class page on tablet screen" style="width: 30%">
+<img src="assets/images/readme/class_mobile.png" alt="class page on mobile screen" style="width: 20%">
+
+### contact
+<img src="assets/images/readme/contact_desktop.png" alt="contact page on desktop screen" style="width: 40%">
+<img src="assets/images/readme/contact_tablet.png" alt="contact page on tablet screen" style="width: 30%">
+<img src="assets/images/readme/contact_mobile.png" alt="contact page on mobile screen" style="width: 20%">
+
+
+### signup
+<img src="assets/images/readme/signup_desktop.png" alt="signup page on desktop screen" style="width: 40%">
+<img src="assets/images/readme/signup_tablet.png" alt="signup page on tablet screen" style="width: 30%">
+<img src="assets/images/readme/signup_mobile.png" alt="signup page on mobile screen" style="width: 20%">
+
+### contact
+<img src="assets/images/readme/contact_1_desktop.png" alt="contact page on desktop screen" style="width: 40%">
+<img src="assets/images/readme/contact_1_tablet.png" alt="contact page on tablet screen" style="width: 30%">
+<img src="assets/images/readme/contact_1_mobile.png" alt="contact page on mobile screen" style="width: 20%">
+
 Hobby project
 
+
+## Technologies
+* Bootstrap
+* HTML
+* CSS
 
 ## Sources
 
