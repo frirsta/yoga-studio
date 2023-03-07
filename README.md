@@ -94,12 +94,12 @@ Bild av Yan Krukau: https://www.pexels.com/sv-se/foto/man-manniskor-kvinnor-tran
 <a href="https://www.flaticon.com/free-icons/home" title="home icons">Home icons created by Freepik - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/tree" title="tree icons">Tree icons created by Freepik - Flaticon</a>
 
-    Bild av Yan Krukau: https://www.pexels.com/sv-se/foto/manniskor-kondition-yoga-halsa-8436620/ CLASSES
-    Bild av Yan Krukau: https://www.pexels.com/sv-se/foto/vanner-kvinnor-lycklig-leende-8436550/ CLASSES
-    <div> Icons made by <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+Bild av Yan Krukau: https://www.pexels.com/sv-se/foto/manniskor-kondition-yoga-halsa-8436620/ CLASSES
+Bild av Yan Krukau: https://www.pexels.com/sv-se/foto/vanner-kvinnor-lycklig-leende-8436550/ CLASSES
+<div> Icons made by <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
 <a href="https://www.flaticon.com/free-icons/lotus" title="lotus icons">Lotus icons created by Freepik - Flaticon</a> FAVICON
 <a href="https://www.flaticon.com/free-icons/signature" title="signature icons">Signature icons created by Freepik - Flaticon</a> ABOUT
 
     
-    Image by rawpixel.com
-    <a href="https://www.freepik.com/free-photo/young-women-yoga-indoors-keep-calm-meditates-while-practicing-yoga-explore-inner-peace-yoga-meditation-have-good-benefits-health-photo-concept-yoga-sport-healthy-lifestyle_1253639.htm#query=yoga&position=16&from_view=search&track=sph">Image by tirachard</a> on Freepik HERO
+Image by rawpixel.com
+<a href="https://www.freepik.com/free-photo/young-women-yoga-indoors-keep-calm-meditates-while-practicing-yoga-explore-inner-peace-yoga-meditation-have-good-benefits-health-photo-concept-yoga-sport-healthy-lifestyle_1253639.htm#query=yoga&position=16&from_view=search&track=sph">Image by tirachard</a> on Freepik HERO
