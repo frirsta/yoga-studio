@@ -27,6 +27,8 @@ width: 100%;
     justify-content: space-evenly;
     z-index: 0;
     position: relative;
+    padding-top: 80px;
+    padding-bottom: 100px;
 }
 .form-container{
     width: 100%;
